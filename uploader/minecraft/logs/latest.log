@@ -1,0 +1,5 @@
+[13:12:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 53739044ms or 1074780 ticks behind
+[13:12:08] [Server Watchdog/FATAL]: A single server tick took 53739.04 seconds (should be max 0.05)
+[13:12:08] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[13:12:16] [Server Watchdog/ERROR]: This crash report has been saved to: /root/uploader/minecraft/./crash-reports/crash-2021-08-02_13.12.16-server.txt
+[13:12:16] [Server thread/INFO]: Stopping server

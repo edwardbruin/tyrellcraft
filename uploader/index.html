@@ -1,0 +1,20 @@
+<h1>test uploader here</h1>
+<form enctype="multipart/form-data" method="post">
+	<input type="file" multiple name="file"/>
+	<input type="text" name="payload"/>
+	<input type="submit" value="Upload"/>
+</form>
+<pre id=div2>
+</pre>
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function () {
+	window.setInterval(function(){
+		$.get('/latest.log',
+			function(data){
+				$('#div2').html(data);
+			}
+		);
+	},1000);
+});
+</script>
